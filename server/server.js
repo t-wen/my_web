@@ -53,7 +53,7 @@ function task3() {
             res.end(pageFile);
             resolve('done')
         });
-        server.listen(3000);
+        server.listen(80);
     });
 }
 

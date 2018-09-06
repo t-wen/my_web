@@ -1,0 +1,17 @@
+h1{
+    
+    position: relative;
+    left: calc(50% - 144px);
+}
+
+p{
+    position: relative;
+    left: calc(50% - 144px);
+}
+
+footer {
+    font-size: .8rem;
+    position: absolute;
+    bottom: 10px;
+    left: calc(50% - 80px);
+}
