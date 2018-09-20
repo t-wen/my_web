@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8"  />
+<title>Hello React!</title>
+<script src="./react.development.js"></script>
+<script src="./react-dom.development.js"></script>
+<script src="./babel.min.js"></script>
+</head>
+<body>
+<div id="example"></div>
+<script type="text/babel">
+function tick() {
+    const element = (
+        <div>
+            <h1>Hello, my world!</h1>
+            <h2>Now it is {new Date().toLocaleTimeString()}.</h2>
+        </div>
+    );
+    ReactDOM.render(
+        element,
+        document.getElementById('example')
+    );
+}
+
+setInterval(tick, 1000);
+</script>
+
+</body>
+</html>
